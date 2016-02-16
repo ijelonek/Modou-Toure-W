@@ -1,3 +1,65 @@
-.jumbotron{
-	background-image:"images/1";
+body{
+	background-image: url("../images/textile.jpg");
+	background-size:cover;
+background-size:contain;
+
 }
+
+
+.jumbotronwidth
+{
+max-width:100%;
+}
+
+h1{
+	color:white;
+
+}
+
+.container {
+	color:rgba(255,255,255,1);
+	background:#966;
+	background: linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,.9));
+	background: -webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,.9));
+	background: -moz-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,.9));
+	bottom:0px;
+}
+
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.main_picture{
+
+}
+
+/*.section2 {
+background-image: url("../images/textile.jpg");
+	background-size:cover;
+background-size:contain;
+}*/
+
+.btn{
+	margin:0px 20px;
+	border:2px solid black; 
+	border-radius: 20px;
+	font-size:16px;
+}
+
+#spotify{
+	background-color: rgb(132,189,0);
+	color:white;
+}
+
+
+#facebook {
+background-color:  #3b5998;
+color:white; 
+}
+
+#twitter {
+background-color: #4099FF;
+color:white;
+}
+

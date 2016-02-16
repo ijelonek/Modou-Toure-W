@@ -59,7 +59,7 @@
 ======= -->
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>	
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>	
 	<link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500italic' rel='stylesheet' type='text/css'>
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -74,92 +74,116 @@
 <body>
 
  <!--navbar-->
- <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+ <div class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
   <div class="container">
     <div class="navbar-header"> 
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
         <span class="icon-bar"></span> 
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+
       </button>
       <a href="" class="navbar-brand">Modou Toure</a>
     </div> <!--Navbar header-->
 
     <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav #menu">
 
         <li><a href="#about">about Modou</a></li>
         <li><a href="#albums">albums</a></li>
         <li><a href="#colaborations">collaborations</a></li>
         <li><a href="#gigs">gigs</a></li>
-        <li><a href="#contact">get in touch</a></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+
+        <li><a href="#contact">get in touch</a></li> 
       </ul>
     </div>
   </div> <!--End Container -->
+</div> <!--end navbar-->
 
-  <!--jumbotron-->
+<!--jumbotron-->
+
+<div class="container">  
   <div class="jumbotron">
-    <div class="container text-center">
-      <div class="row">   
 
-        <div class="col-sm-4">
-          <img class="img-responsive" src= "images/up.jpg" class="img-thumbnail" />
-        </div> <!--col-md-4-->
+    <div class="row">
+      <div class="col-sm-7">
 
-        <div class="col-sm-8">
-          <div class="row">  
-           <h1>Modou Toure</h1>
-           <p>African blues</p>
-         </div><!--end row-->
-         <div class="row">
-           <div class="col-sm-8">
-
-            <div class="btn-group">
-              <a href="" class="btn btn-lg btn-defualt">Listen on Spotify</a>
-              <a href="" class="btn btn-lg btn-defualt">View Facebook</a>
-              <a href="" class="btn btn-lg btn-defualt">Follow on Twitter</a>
-            </div>
-          </div><!--btn-group-->
-        </div><!--end row-->
-      </div><!--col-md-8-->
-    </div> <!--end row-->
+        <img class="main_picture img-responsive jumbotronwidth" src="images/up.jpg">
+      </div>
+      <div class="col-sm-5 heading">
+        <div class="row">
+          <h1> Modou Toure </h1>
+        </div>
 
 
-  </div><!--end container-->
 
-</div><!--end jumbotron-->
+        <div class=" row social-media pull-left">
 
-<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
-<ol class="carousel-indicators">
 
-<li data-target="#screenshot-carousel" data-slide-to-"0" class="active"></li>
-<li data-target="#screenshot-carousel" data-slide-to-"1"></li>
-<li data-target="#screenshot-carousel" data-slide-to-"2"></li>
-<li data-target="#screenshot-carousel" data-slide-to-"3"></li>
-<li data-target="#screenshot-carousel" data-slide-to-"4"></li>
-</ol>
 
-<div class="carousel inner">
-<div class="item active">
-<img src= "images/1.jpg">
+          <div class="btn-group">
+            <a href="" class="btn" id="spotify">Listen on Spotify</a>
+            <a href="" class="btn" id="facebook">Visit Facebook page</a>
+            <a href="" class="btn" id="twitter">Follow on Twitter</a>
+          </div>
+        </div>
+      </div><!--btn-group-->
+    </div><!--end row-->
+  </div>
 </div>
 
-<div class="item">
-<img src= "images/2.jpg">
+  <div class="section2">
 
-<div class="item">
-<img src= "images/3.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
 
-<div class="item">
-<img src= "images/4.jpg">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
 
-<div class="item">
-<img src= "images/5.jpg">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="images/1.jpg" alt="picture">
+              </div>
 
-</div> <!--End carousel inner-->
+              <div class="item">
+                <img src="images/2.jpg" alt="picture">
+              </div>
+
+              <div class="item">
+                <img src="images/3.jpg" alt="picture">
+              </div>
+
+              <div class="item">
+                <img src="images/4.jpg" alt="picture">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
 
 
-
+      </div> <!--close row-->
+    </div> <!--close section2-->
+  </div>
 <!--
 
  <div class="container center-block">
