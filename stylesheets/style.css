@@ -5,15 +5,27 @@ background-size:contain;
 
 }
 
+.jumbotron {
+	background-image: url("../images/up.jpg");
+	background-size:cover;
+	height:100%;
+	width:auto;
+}
 
 .jumbotronwidth
 {
 max-width:100%;
+max-height: auto;
 }
 
 h1{
 	color:white;
 
+}
+
+.main_picture {
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
