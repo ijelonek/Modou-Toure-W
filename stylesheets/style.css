@@ -2,7 +2,7 @@ body{
 	background-image: url("../images/textile.jpg");
 	background-size:cover;
 background-size:contain;
-
+font-family: 'Alegreya Sans', sans-serif;
 }
 
 .jumbotron {
@@ -20,6 +20,7 @@ max-height: auto;
 
 h1{
 	color:white;
+font-family: 'Alegreya Sans', sans-serif;
 
 }
 
@@ -52,14 +53,23 @@ background-image: url("../images/textile.jpg");
 background-size:contain;
 }*/
 
-.btn{
-	margin:0px 20px;
-	border:2px solid black; 
-	border-radius: 20px;
-	font-size:16px;
+
+.btn-social {
+	height:40px;
+	width: 120px;
+	border-radius: 4px;
+	border:none;
+	margin:0px 10px 10px 0px; 
+
+}
+
+a{
+	color:white;
+	text-decoration: none;
 }
 
 #spotify{
+
 	background-color: rgb(132,189,0);
 	color:white;
 }
@@ -75,3 +85,23 @@ background-color: #4099FF;
 color:white;
 }
 
+.section2 p {
+	text-align: justify;
+	margin-left:50px;
+}
+
+.section2 h2{
+	margin-left: 70px;
+
+}
+
+
+
+
+ul.nav a:hover { 
+	color:orange !important; 
+}
+
+.navbar-brand:hover{
+color:orange !important;	
+}
